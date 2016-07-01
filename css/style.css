@@ -1,0 +1,71 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/fontOpenSans.ttf);
+   }
+@font-face {
+    font-family: OpenSansLight;
+    src: url(../fonts/fontOpenSansLight.ttf);
+   }
+.b-page{
+    margin: 0;
+    font-family: OpenSans;
+}
+.b-page__section{
+    padding-top:70px;
+    padding-bottom:70px;
+    overflow: hidden;
+}
+.b-page__section_head{
+    background: #f74c55;
+    padding-top: 40px;
+    padding-bottom:180px;
+    position: relative;
+}
+.b-logo__img{
+   position: absolute;
+}
+.b-logo__img_left-top{
+    left: 0px;
+    top: 0px;
+}
+.b-logo__img_right-bottom{
+    right: 0px;
+    bottom: 0px;
+}
+.b-head__menu {
+    float: right;
+    width: 100%;
+    margin-bottom: 200px;
+    text-align: right;
+}
+.b-link_menu{
+    padding: 0 20px;
+    font-family: OpenSansLight;
+    font-size: 17px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.b-head__join {
+ padding-left: 50px;
+}
+.b-head__join .join_title {
+    font-size: 40px;
+    color: #ffffff;
+    font-family: OpenSansLight;
+}
+.b-head__join .join_text {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 2em;
+}
+.b-head__join .join_button {
+    font-size: 24px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 6px 25px;
+    text-decoration: none;
+}
+.b-page__section_description{
+    height: 448px;
+}
